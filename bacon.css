@@ -1,12 +1,34 @@
-@media screen and (max-width: 400px) {
-  body {
-    background-color: chartreuse;
+@media (max-width: 400px) {
+  #ingredients {
+    display: none;
+  }
+
+  #method {
+    display: none;
   }
 }
 
-body {
-  background-color: rgb(247, 244, 240);
+@media (min-width: 401px) and (max-width: 750px) {
+  #ingredients {
+    font-size: 15px;
+  }
+
+  #method {
+    font-size: 15px;
+  }
+
+  .card {
+    background-color: rgb(205, 155, 209) !important;
+  }
 }
+
+@media (min-width: 750px) {
+}
+
+body {
+  background-color: rgb(247, 246, 242);
+}
+
 h1 {
   color: rgb(121, 33, 129);
   font-family: monospace;
