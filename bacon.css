@@ -1,0 +1,151 @@
+@media screen and (max-width: 400px) {
+  body {
+    background-color: chartreuse;
+  }
+}
+
+body {
+  background-color: rgb(247, 244, 240);
+}
+h1 {
+  color: rgb(121, 33, 129);
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#introduction {
+  margin-top: 30px;
+  width: 45%;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+img {
+  width: 75%;
+  text-align: center;
+}
+#description {
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+section {
+  width: 35%;
+  height: auto;
+  margin-left: 20px;
+}
+.card {
+  background-color: rgb(197, 223, 197);
+  border: rgb(169, 196, 169) solid 1px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: monospace;
+  color: brown;
+}
+
+footer {
+  background-color: rgb(205, 155, 209);
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: monospace;
+}
+#form {
+  margin-left: 20px;
+}
+#signIn .bold-text {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+#signUp {
+  float: right;
+  background-color: rgb(121, 33, 129);
+  color: ivory;
+  font-size: 15px;
+  font-family: monospace;
+  width: auto;
+  padding: 10px;
+  border: rgb(121, 33, 129) solid 2px;
+  border-radius: 8px;
+}
+
+#signUp:hover {
+  background-color: rgb(232, 189, 236);
+  color: rgb(121, 33, 129);
+}
+
+#username {
+  padding: 10px;
+  font-family: monospace;
+  background-color: ivory;
+  color: rgb(121, 33, 129);
+  font-size: 15px;
+  border: rgb(121, 33, 129) solid 2px;
+  border-radius: 8px;
+}
+
+#password {
+  padding: 10px;
+  font-family: monospace;
+  background-color: ivory;
+  color: rgb(121, 33, 129);
+  font-size: 15px;
+  border: rgb(121, 33, 129) solid 2px;
+  border-radius: 8px;
+}
+
+#signIn {
+  color: rgb(121, 33, 129);
+  background-color: ivory;
+  font-size: 15px;
+  font-family: monospace;
+  padding: 10px;
+  border: rgb(121, 33, 129) solid 2px;
+  border-radius: 8px;
+}
+
+#signIn:hover {
+  color: rgb(121, 33, 129);
+  background-color: rgb(232, 189, 236);
+}
+
+#altRecipeLink {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#stylingLink {
+  padding: 5px;
+  color: rgba(97, 24, 104, 0.808);
+  font-size: 15px;
+  font-weight: 600;
+}
